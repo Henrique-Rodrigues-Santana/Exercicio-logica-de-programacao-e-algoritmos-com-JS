@@ -50,7 +50,7 @@ function listar(){
    var lista = ''
    var tamanhoLista = noticias.length - 1
 
-   for(var i = tamanhoLista; i >= 0; i--){
+   for(var i = tamanhoLista; i >= solicitar; i--){
 
     lista += (i+1) + '° )' + noticias[i] + '\n'
 
