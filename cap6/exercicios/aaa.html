@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var mensagem = 'Olá tudo bem com vc '
+console.log(mensagem.charAt(1))
+
+var menEsquerda = ''
+var menDireita = ''
+    
+
+    for(var i = 0; i < mensagem.length;i++){
+        if(mensagem.charAt(i) % 2 == 0){
+            menDireita += mensagem.charAt(i)
+            console.log('primeiro')
+        }else{
+            menEsquerda += mensagem.charAt(i)
+        }
+    }
+
+    console.log(menDireita)
+    </script>
+</body>
+</html>
